@@ -16,5 +16,13 @@ At this time, when I'm writing this. I have a problem, and this is how I [solve 
     * [XMPPFramework](https://github.com/robbiehanson/XMPPFramework):
 Just do a normal git clone.
 
-2. Make your own project. This task take quite a long time, you should see how nativeclient project is organized and do the same thing to your project. Make sure to include enough libaries and some compile flags. To make thing simple, I will ignore this step and use the nativeclient project myself.
+2. Make your own project. This task takes quite a long time, you should see how voiceclient project is organized and do the same thing to your project. Make sure to include enough libaries and some compile flags. To make thing simple, I will ignore this step and use the voiceclient project myself. If you are going to copy third_party folder to your project, make sure you don't change its name. It will be painful to update the build settings of those projects. One more thing, please change your project files to use .mm extension instead of .m. This will help us a lot because we need to call some C++ code.
+
+3. Add XMPPFramework to your project. This quite easy, just follow the guide from their site.
+
+4. After those steps, you should make a build, just make sure everything works well.
+
+5. 
+
+
 
