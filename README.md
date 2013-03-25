@@ -11,9 +11,11 @@ Support using [webrtc-jingle-client](http://github.com/lukeweber/webrtc-jingle-c
 ## How to install
 
 1. You should begin by cloning 2 projects:
-* [webrtc-jingle-client](http://github.com/lukeweber/webrtc-jingle-client):
+
+a. [webrtc-jingle-client](http://github.com/lukeweber/webrtc-jingle-client):
 At this time, when I'm writing this. I have a problem, and this is how I [solve it](https://github.com/lukeweber/webrtc-jingle-client/issues/74). Make sure to do every steps that Luke told us.
-* [XMPPFramework](https://github.com/robbiehanson/XMPPFramework):
+
+b. [XMPPFramework](https://github.com/robbiehanson/XMPPFramework):
 Just do a normal git clone.
 
 2. Make your own project. This task take quite a long time, you should see how nativeclient project is organized and do the same thing to your project. Make sure to include enough libaries and some compile flags. To make thing simple, I will ignore this step and use the nativeclient project myself.
