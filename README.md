@@ -1,8 +1,6 @@
 jingle-ios-patch
 ================
 
-Testing branch
-
 Support using [webrtc-jingle-client](http://github.com/lukeweber/webrtc-jingle-client) and [XMPPFramework](https://github.com/robbiehanson/XMPPFramework) together.
 
 ## About
